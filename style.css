@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap'); */
+
+/* @media only screen and (min-width: 968px) {
+    body {
+      ;
+    }
+  } */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav__menu ul{
+    list-style: none;
+    margin-right: 5.2rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav__list{
+    display: flex;
+}
+
+.nav__link{
+    margin-left: 1.5rem;
+}
+
+.nav__name{
+    margin-left: 5.2rem;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+.home{
+    height: 500px;
+    margin-top: 50px;
+}
+
+.home__section{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+}
+
+.home__section--card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social__media{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2.5rem;
+    font-size: 30px;
+}
+
+.social__media a{
+    margin-top: 1.5rem;
+}
+
+.social__media--item:hover{
+    color: blueviolet;
+}
+
+.screen__text a{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.screen__text--title{
+    font-size: 40px;
+    margin-bottom: 1rem;
+}
+
+.screen__text--subtitle{
+    margin-bottom: .5rem;
+}
+
+.screen__text--description{
+    margin: .5rem 3rem 1.5rem 0;
+}
+
+.button__flex{
+    display: inline-block;
+    width: 160px;
+    height: 70px;
+    border-radius: 0.5rem;
+    padding: 1.5rem 0 0 0.8rem;
+    background-color: blueviolet;
+}
+
+.button__flex:hover{
+    background-color: rgb(85, 6, 85);
+    transition: 0.3s;
+}
+
+.home__screen--scroll{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 2rem;
+}
+
+.screen__scroll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    height: 50px;
+}
+
+.screen__scroll span{
+   
+}
+
+.fa-mouse{
+    font-size: 2.5rem;
+    margin-right: .5rem;
+}
+
+.screen__scroll span{
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.home__screen--image img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 1.5rem;
+}
