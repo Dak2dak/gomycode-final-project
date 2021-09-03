@@ -48,13 +48,18 @@ a{
     font-size: 20px;
 }
 
+.fa-user, 
+.fa-briefcase, 
+.fa-suitcase, .fa-image, .fa-home{
+    margin-right: 0.4rem;
+}
 
 
 
 
 
 
-
+/*-------------------- start section 1 ---------------------*/
 .home{
     height: 600px;
     margin-top: 50px;
@@ -160,10 +165,10 @@ a{
     object-fit: cover;
     margin-left: 1.5rem;
 }
-/* end section 1 */
+/* -------------end section 1------------------ */
 
 
-/* start section 2 */
+/* ------------start section 2 -----------------*/
 .about{
     margin-top: 50px;
     display: flex;
@@ -261,12 +266,10 @@ a{
 .fa-arrow-up{
     color: white;
 }
+/* ----------------end section 2 ----------------*/
 
 
-
-
-
-/* section 3 */
+/* -------------- Start section 3 -------------------*/
 
 .Skills{
     display: flex;
@@ -316,6 +319,10 @@ a{
     height: 310px;
 }
 
+.up__within .fa-chevron-up{
+    cursor: pointer;
+}
+
 .headings__text--title{
     font-size: 16px;
     margin: 0.3rem 0 1rem 0;
@@ -327,12 +334,88 @@ a{
     padding: 15px 0;
 }
 
-.skills__bar{
-    width: 350px;
-    height: 8px;
+.skills__bar, 
+.skills__bar--css,
+.skills__bar--react,
+.skills__bar--javascript,
+.skills__bar--python,
+.skills__bar--firebase,
+.skills__bar--node,
+.skills__bar--php,
+.skills__bar--figma,
+.skills__bar--photoshop,
+.skills__bar--sketch,
+.skills__bar--html{
+    height: 5px;
     border-radius: 0.5rem;
-    background-color: rgb(153, 153, 228);
 }
+
+.skills__bar{
+    background-color: rgb(188, 168, 207);
+}
+
+.skills__bar--react, 
+.skills__bar--javascript,
+.skills__bar--html,
+.skills__bar--css,
+.skills__bar--python,
+.skills__bar--firebase,
+.skills__bar--node,
+.skills__bar--php,
+.skills__bar--sketch,
+.skills__bar--figma,
+.skills__bar--photoshop,
+.skills__bar--html{
+    display: block;
+    background-color: blueviolet;
+}
+
+.skills__bar--html{
+    width: 90%;
+}
+
+.skills__bar--react{
+    width: 85%;
+}
+
+.skills__bar--css{
+    width: 80%;
+}
+
+.skills__bar--javascript{
+    width: 60%;
+}
+
+.skills__bar--python{
+    width: 55%;
+}
+
+.skills__bar--firebase{
+    width: 90%;
+}
+
+.skills__bar--node{
+    width: 70%;
+}
+
+.skills__bar--php{
+    width: 80%;
+}
+
+.skills__bar--sketch{
+    width: 85%;
+}
+
+.skills__bar--figma{
+    width: 90%;
+}
+
+.skills__bar--photoshop{
+    width: 85%;
+}
+
+
+
 
 .section__details--headings{
     display: flex;
@@ -352,4 +435,74 @@ a{
 .section__details--headings .fa-chevron-up{
     height: 30px;
     margin-top: 0.6rem;
+}
+/*----------------- end section 3 -----------------*/
+
+/*---------------- start section 4 ----------------*/
+
+.qualification{
+    border: dashed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.qualification__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem 0;
+}
+
+.qualification__text--title{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.qualification__text--subtitle{
+    font-size: 15px;
+}
+
+.qualification__field{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2.5rem;
+}
+
+.qualification__field--education{
+    font-size: ;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.qualification__field--education:hover{
+    color: blueviolet;
+}
+
+.qualification__icon{
+    font-size: 1.8rem;
+    margin-right: 0.5rem;
+}
+
+.qualification__about{
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem;
+}
+
+.qualification__about--info{
+    border: dashed;
+}
+
+.about__infos--details{
+    border: dashed;
+}
+
+
+
+
+.work__side{
+    border: dashed;
 }
