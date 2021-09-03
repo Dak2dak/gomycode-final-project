@@ -274,6 +274,7 @@ a{
     justify-content: center;
     align-items: center;
     margin: 3rem 0;
+    padding: 1rem 0;
 }
 
 .Skills__text{
@@ -293,6 +294,10 @@ a{
     justify-content: flex-start;
     align-items: center;
     gap: 2rem;
+}
+
+.skills__section{
+    padding-left: 1.8rem;
 }
 
 .skill__item{
@@ -319,7 +324,7 @@ a{
 .field__section--details{
     margin-top: 1.5rem;
     width: 400px;
-    padding: 15px 15px;
+    padding: 15px 0;
 }
 
 .skills__bar{
@@ -329,16 +334,6 @@ a{
     background-color: rgb(153, 153, 228);
 }
 
-/* .skills__bar span{
-    float: left;
-}
-
-.skills__bar--react{
-    width: 85%;
-    height: 8px;
-    color: hsl(240, 84%, 71%);
-} */
-
 .section__details--headings{
     display: flex;
     gap: 0.8rem;
@@ -347,4 +342,14 @@ a{
 .details__headings--text{
     display: flex;
     flex-direction: column;
+}
+
+.fa-drafting-compass, .fa-code, .fa-crop-alt {
+    height: 30px;
+    margin-top: 0.5rem;
+}
+
+.section__details--headings .fa-chevron-up{
+    height: 30px;
+    margin-top: 0.6rem;
 }
