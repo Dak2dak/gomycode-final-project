@@ -55,7 +55,6 @@ a{
 
 
 
-
 .home{
     height: 600px;
     margin-top: 50px;
@@ -261,4 +260,91 @@ a{
 
 .fa-arrow-up{
     color: white;
+}
+
+
+
+
+
+/* section 3 */
+
+.Skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+.Skills__text{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.skills__field{
+    width: 1000px;
+    padding-left: 4rem;
+}
+
+.skills__field--section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+}
+
+.skill__item{
+    margin: 1rem 0;
+}
+
+.skill__title{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.scrolling__chevron{
+    margin-left: 3rem;
+    height: 310px;
+}
+
+.headings__text--title{
+    font-size: 16px;
+    margin: 0.3rem 0 1rem 0;
+}
+
+.field__section--details{
+    margin-top: 1.5rem;
+    width: 400px;
+    padding: 15px 15px;
+}
+
+.skills__bar{
+    width: 350px;
+    height: 8px;
+    border-radius: 0.5rem;
+    background-color: rgb(153, 153, 228);
+}
+
+/* .skills__bar span{
+    float: left;
+}
+
+.skills__bar--react{
+    width: 85%;
+    height: 8px;
+    color: hsl(240, 84%, 71%);
+} */
+
+.section__details--headings{
+    display: flex;
+    gap: 0.8rem;
+}
+
+.details__headings--text{
+    display: flex;
+    flex-direction: column;
 }
