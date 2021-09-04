@@ -414,8 +414,13 @@ a{
     width: 85%;
 }
 
+#none_1, #none_2{
+    height: 28px;
+}
 
-
+#none_4, #none_3{
+    background-color: white;
+}
 
 .section__details--headings{
     display: flex;
@@ -441,11 +446,10 @@ a{
 /*---------------- start section 4 ----------------*/
 
 .qualification{
-    border: dashed;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    margin: 3rem 0;
 }
 
 .qualification__text{
@@ -468,7 +472,7 @@ a{
 .qualification__field{
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 2.5rem;
+    margin-bottom: 3rem;
 }
 
 .qualification__field--education{
@@ -483,26 +487,85 @@ a{
 
 .qualification__icon{
     font-size: 1.8rem;
-    margin-right: 0.5rem;
+    margin-right: 0.3rem;
 }
 
 .qualification__about{
-    display: grid;
-    grid-template-columns: 1fr max-content 1fr;
-    column-gap: 1.5rem;
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.qualification__about--info{
-    border: dashed;
+.disp__flex{
+    display: flex;
 }
 
-.about__infos--details{
-    border: dashed;
+.qualification__data{
+    width: 200px;
+    margin-bottom: 1rem;
+    display: flex;
+}
+
+.about__infos--data{
+    display: flex;
+}
+
+/* .seperating__line{
+    width: 3px;
+    height: 110px; 
+   font-weight: bold;
+   background-color: blueviolet;
+   line-height: 5px;
+} */
+
+.apply__gap{
+    width: 200px;
+}
+
+.front-end__card, .engineer__card{
+    display: flex;
 }
 
 
 
 
-.work__side{
-    border: dashed;
+
+/*---------------- start section 5 ------------------*/
+
+.services{
+    margin: 1.5rem 0 3rem 0;
 }
+
+.services__headings{
+    text-align: center;
+}
+
+ul li{
+    list-style: none;
+}
+
+.services__data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 1.5rem;
+}
+
+.data__boxes--designation{
+    border: solid;
+    width: 350px;
+    box-shadow: 2px solid rgb(51, 46, 46);
+   
+}
+
+.boxes__designation--details{
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+
