@@ -1,12 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap'); */
-
-/* @media only screen and (min-width: 968px) {
-    body {
-      ;
-    }
-  } */
 
 *{
     margin: 0;
@@ -446,18 +438,12 @@ a{
 /*---------------- start section 4 ----------------*/
 
 .qualification{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     margin: 3rem 0;
 }
 
-.qualification__text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 1.5rem 0;
+.qualification__icon{
+    font-size: 1.8rem;
+    margin-right: 0.3rem;
 }
 
 .qualification__text--title{
@@ -476,7 +462,6 @@ a{
 }
 
 .qualification__field--education{
-    font-size: ;
     font-weight: bold;
     cursor: pointer;
 }
@@ -485,49 +470,38 @@ a{
     color: blueviolet;
 }
 
-.qualification__icon{
-    font-size: 1.8rem;
-    margin-right: 0.3rem;
-}
+
 
 .qualification__about{
     display: flex;
     justify-content: space-evenly;
 }
+.qualification__text{
+    text-align: center;
+    margin: 2rem 0;
+}
 
-.disp__flex{
+/* .qualification__about{
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
+
+.qualification__field{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
 }
 
 .qualification__data{
-    width: 200px;
-    margin-bottom: 1rem;
-    display: flex;
-}
-
-.about__infos--data{
-    display: flex;
-}
-
-/* .seperating__line{
-    width: 3px;
-    height: 110px; 
-   font-weight: bold;
-   background-color: blueviolet;
-   line-height: 5px;
-} */
-
-.apply__gap{
-    width: 200px;
-}
-
-.front-end__card, .engineer__card{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem;
 }
 
 
 
-
+/*----------------- end section 4 -------------------*/
 
 /*---------------- start section 5 ------------------*/
 
@@ -565,7 +539,19 @@ ul li{
 
 
 
+/*---------------- end section 5 ----------------*/
 
+/*--------------- start section 6 ---------------*/
+
+.portfolio{
+    border: dashed;
+    margin-top: 3rem;
+    padding-top: 3rem;
+}
+
+.portfolio__headings{
+    text-align: center;
+}
 
 
 
