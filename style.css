@@ -520,7 +520,7 @@ a{
 /*---------------- start section 5 ------------------*/
 
 .services{
-    margin: 1.5rem 0 3rem 0;
+    margin: 1.5rem 0 0 0;
 }
 
 .services__headings{
@@ -540,16 +540,36 @@ ul li{
 }
 
 .data__boxes--designation{
-    border: solid;
+    padding: 2rem 0 0 3rem;
     width: 350px;
-    box-shadow: 2px solid rgb(51, 46, 46);
-   
+    box-shadow: 0 0 12px -5px rgb(0,0,0,0.20);
 }
 
 .boxes__designation--details{
     visibility: hidden;
+    padding-bottom: 2rem;
 }
 
+.page__development,
+.user__interface,
+.element__interactions,
+.company__brand{
+    display: flex;
+    gap: 5px;
+}
+
+.fa-check-circle{
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.services__link{
+    color: blueviolet;
+}
+
+.boxes__designation--headings i{
+    color: blueviolet;
+}
 
 
 
