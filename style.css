@@ -49,11 +49,6 @@ a{
     color: blueviolet;
 }
 
-
-
-
-
-
 /*-------------------- start section 1 ---------------------*/
 .home{
     height: 600px;
@@ -448,6 +443,7 @@ a{
 
 .qualification{
     margin: 3rem 0;
+    padding-bottom: 2rem;
 }
 
 .qualification__icon{
@@ -485,7 +481,9 @@ a{
 
 .qualification__about{
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .qualification__text{
@@ -502,15 +500,29 @@ a{
 .qualification__data{
     display: grid;
     grid-template-columns: 1fr max-content 1fr;
-    column-gap: 1.5rem;
-}
-
-.infos__details--designation{
-    border: dashed;
+    column-gap: 7rem;
 }
 
 .details__designation--years{
     margin-top: 2rem;
+}
+
+.seperating__line{
+    border: solid;
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.qualification__rounder{
+    height: 13px;
+    width: 13px;
+    color: blueviolet;
+}
+
+.qualification__line{
+    position: relative;
+    background-color: blueviolet;
+    font-weight: bold;
 }
 
 
@@ -570,8 +582,6 @@ ul li{
 .boxes__designation--headings i{
     color: blueviolet;
 }
-
-
 
 /*---------------- end section 5 ----------------*/
 
@@ -684,6 +694,7 @@ ul li{
     color: blueviolet;
 }
 
+/*---------------------- end section 6 ------------------------*/
 
 /*--------------------- start section 7 ------------------------*/
 .testimonial{
@@ -727,20 +738,6 @@ ul li{
     font-size: 20px;
     font-weight: bold;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*---------------------- end section 7 -------------------------*/
 
