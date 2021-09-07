@@ -14,6 +14,7 @@ html{
 .nav__menu ul{
     list-style: none;
     margin-right: 5.2rem;
+    font-weight: bold;
 }
 
 a{
@@ -38,12 +39,14 @@ a{
 .nav__name{
     margin-left: 5.2rem;
     font-size: 20px;
+    font-weight: bold;
 }
 
 .fa-user, 
 .fa-briefcase, 
 .fa-suitcase, .fa-image, .fa-home{
     margin-right: 0.4rem;
+    color: blueviolet;
 }
 
 
@@ -76,13 +79,14 @@ a{
     align-items: center;
     margin-right: 3rem;
     font-size: 30px;
+    color: blueviolet;
 }
 
 .social__media a{
     margin-top: 1rem;
 }
 
-.social__media--item:hover{
+.social__media--item{
     color: blueviolet;
 }
 
@@ -143,6 +147,11 @@ a{
 .fa-mouse{
     font-size: 2.5rem;
     margin-right: .5rem;
+    color: blueviolet;
+}
+
+.fa-arrow-down{
+    color: blueviolet;
 }
 
 .screen__scroll span{
@@ -466,26 +475,23 @@ a{
     cursor: pointer;
 }
 
-.qualification__field--education:hover{
+.fa-graduation-cap{
     color: blueviolet;
 }
 
-
+.qualification__field--education:hover{
+    color: blueviolet;
+}
 
 .qualification__about{
     display: flex;
     justify-content: space-evenly;
 }
+
 .qualification__text{
     text-align: center;
     margin: 2rem 0;
 }
-
-/* .qualification__about{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-} */
 
 .qualification__field{
     display: flex;
@@ -497,6 +503,14 @@ a{
     display: grid;
     grid-template-columns: 1fr max-content 1fr;
     column-gap: 1.5rem;
+}
+
+.infos__details--designation{
+    border: dashed;
+}
+
+.details__designation--years{
+    margin-top: 2rem;
 }
 
 
@@ -544,14 +558,326 @@ ul li{
 /*--------------- start section 6 ---------------*/
 
 .portfolio{
-    border: dashed;
-    margin-top: 3rem;
+    margin: 3rem 0;
     padding-top: 3rem;
 }
 
 .portfolio__headings{
     text-align: center;
+    margin: 3rem 0;
+}
+
+.portfolio__title{
+    font-size: 30px;
+}
+
+.portfolio__subtitle{
+    font-size: 13px;
+}
+
+.content__section i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content__section{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content__section--details{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.portfolio__logo{
+    width: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.content__section--title{
+    font-size: 30px;
+}
+
+.content__section--description{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.button__section{
+    background-color: blueviolet;
+    width: 130px;
+    height: 70px;
+    border-radius: 5px;
+    margin-top: 3rem;
+}
+
+.button__section a{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.5rem;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.button__section i{
+    margin-left: 0.5rem;
+}
+
+.invitation__section{
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    margin: 3rem 0;
+    padding: 2rem 0;
+}
+
+.container__text{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.container__text--title{
+    margin-bottom: 1rem;
+    font-size: 22px;
+}
+
+.container__text--button{
+    width: 170px;
+    height: 70px;
+    border-radius: 5px;
+    padding: 1.5rem 0 2rem 0;
+    background-color: white;
+    margin-top: 2rem;
+    margin-left: 4.5rem;
+}
+
+.container__text--button a{
+    font-weight: bold;
+    font-size: 20px;
+    color: blueviolet;
+}
+
+
+/*--------------------- start section 7 ------------------------*/
+.testimonial{
+    margin: 3rem 0;
+}
+
+.testimonial__headings{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.testimonial__headings--title{
+    font-size: 30px;
+}
+
+.testimonial__headings--subtitle{
+    font-size: 15px;
+}
+
+.customers__testimonial{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+.customers__saying{
+    margin-bottom: 1rem;
+    display: flex;
+}
+
+.customers__saying img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 0.5rem;
+}
+
+.customers__saying--title{
+    font-size: 20px;
+    font-weight: bold;
 }
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------- end section 7 -------------------------*/
+
+/*---------------------- start section 8 -----------------------*/
+.Contactme{
+    margin: 3rem 0;
+}
+
+.contact__message{
+    margin-bottom: 3rem;
+}
+
+.contact__message{
+    text-align: center;
+}
+
+.contact__message h2{
+    font-size: 30px;
+}
+
+.contact__message span{
+    font-size: 15px
+}
+
+.contact__data{
+    padding-top: 3rem;
+}
+
+.personal__info--contact{
+    display: flex;
+}
+
+.contact__data--area{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact__icon,
+.email__icon,
+.location__icon{
+    font-size: 30px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blueviolet;
+}
+
+.phone__number, 
+.owner__address--subtitle,
+.owner__location--subtitle{
+    margin-top: 0.5rem;
+}
+
+.contact__personal--info{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+}
+
+.user__area{
+    row-gap: 1rem;
+}
+
+.user__info{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.project__about--info,
+.project__about--details{
+    margin-top: 1.5rem;
+}
+
+.user__name input, 
+.user__email input{
+    height: 70px;
+    font-size: 18px;
+    background-color: #7562e010;
+    border-radius: 8px;
+    border-style: unset;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+.project__about--info input{
+    height: 70px;
+    width: 488px;
+    font-size: 18px;
+    border-radius: 5px;
+    border-style: unset;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    background-color: #7562e010;
+}
+
+.project__about--details input{
+    width: 488px;
+    height: 250px;
+    font-size: 18px;
+    border-radius: 5px;
+    padding-left: 1rem;
+    border-style: unset;
+    background-color: #7562e010;
+    padding-bottom: 10rem;
+}
+
+.user__area a{
+    margin-top: 1.5rem;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+
+/*-------------------- start footer ----------------------*/
+.footer{
+    margin: 3rem 0;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer__intro{
+    margin: 2rem 0;
+    color: white;
+    font-weight: bold;
+}
+
+.footer__intro--title{
+    margin-bottom: 1rem;
+}
+
+.footer__intro--subtitle{
+    margin-bottom: 2rem;
+}
+
+.footer__options{
+    margin-top: 2rem;
+}
+
+.footer__options--list li a{
+    color: white;
+    font-weight: bold;
+}
+
+.options__list--services,
+.options__list--portfolio,
+.options__list--contact{
+    margin-bottom: 1.5rem;
+}
+
+
+
+.footer__social{
+    display: flex;
+    gap: 1.5rem;
+    margin: 2rem 0;
+    font-size: 30px;
+    color: white;
+}
