@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+@media only screen and (min-width: 600px) {
+
+    
+    
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -112,7 +119,7 @@ a{
 .button__flex{
     display: inline-block;
     width: 170px;
-    height: 80px;
+    height: 70px;
     margin-bottom: 2rem;
     border-radius: 0.5rem;
     padding: 1.5rem 0 0 1rem;
@@ -154,10 +161,19 @@ a{
     margin-right: 5px;
 }
 
+.home__screen--image{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin-left: 3rem;
+}
+
 .home__screen--image img{
-    width: 350px;
-    height: 350px;
-    border-radius: 50%;
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    top: 30%;
+    left: 20%;
     object-fit: cover;
     margin-left: 1.5rem;
 }
@@ -182,7 +198,7 @@ a{
 }
 
 .about__subtitle{
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .about__info{
@@ -218,7 +234,10 @@ a{
 .detail__box--digit{
     font-size: 20px;
     font-weight: bold;
-    margin-left: 1.5rem;
+}
+
+.detail__box{
+    text-align: center;
 }
 
 .button__box{
@@ -278,8 +297,11 @@ a{
 
 .Skills__text{
     text-align: center;
-    font-weight: bold;
     margin-bottom: 2rem;
+}
+
+.Skills__text--title{
+    font-size: 30px;
 }
 
 .skills__field{
@@ -524,7 +546,7 @@ a{
     top: 0;
     width: 13px;
     height: 13px;
-    left: -5px;
+    left: -6px;
     border-radius: 50%;
     background-color: blueviolet;
 }
@@ -556,6 +578,10 @@ a{
 
 .services__headings{
     text-align: center;
+}
+
+.services__headings--title{
+    font-size: 30px;
 }
 
 ul li{
@@ -619,8 +645,6 @@ ul li{
 .services__link{
     color: blueviolet;
 }
-
-
 
 /*---------------- end section 5 ----------------*/
 
@@ -718,12 +742,28 @@ ul li{
 }
 
 .invitation__section{
-    display: flex;
-    justify-content: center;
     background-color: blueviolet;
-    margin: 3rem 0;
-    padding: 2rem 0;
+    margin-top: 3rem;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    position: relative;
 }
+
+.container__direct--relative{
+   display: flex;
+   justify-content: space-evenly;
+   width: 80%; 
+   height: 500px;
+   position: relative;
+}
+
+ .container__text--image{
+    position: absolute;
+    position: absolute;
+    left: 740px;
+    top: -77px;
+} 
 
 .container__text{
     text-align: center;
@@ -732,7 +772,6 @@ ul li{
 }
 
 .container__text--title{
-    margin-bottom: 1rem;
     font-size: 22px;
 }
 
@@ -912,10 +951,11 @@ ul li{
 
 /*-------------------- start footer ----------------------*/
 .footer{
-    margin: 3rem 0;
+    margin: 3rem 0 0 0;
     background-color: blueviolet;
     display: flex;
     justify-content: space-evenly;
+    height: 200px;
 }
 
 .footer__intro{
@@ -934,6 +974,20 @@ ul li{
 
 .footer__options{
     margin-top: 2rem;
+    display: flex;
+    gap: 3rem;
+}
+
+.footer__options--list{
+    display: flex;
+    gap: 3rem;
+}
+
+.footer__social{
+    display: flex;
+    gap: 1.5rem;
+    font-size: 30px;
+    color: white;
 }
 
 .footer__options--list li a{
@@ -946,13 +1000,4 @@ ul li{
 .options__list--contact{
     margin-bottom: 1.5rem;
 }
-
-
-
-.footer__social{
-    display: flex;
-    gap: 1.5rem;
-    margin: 2rem 0;
-    font-size: 30px;
-    color: white;
-}
+/*---------------------- end footer ---------------------------*/
